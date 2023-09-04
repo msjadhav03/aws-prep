@@ -2,6 +2,8 @@
 <p>  
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png?20170912170050" alt="AWS Logo" height="260">
 </p>
+
+# Contents
 1. [Getting Started with AWS](#intro)
 2. [IAM and AWS CLI](#iam)
 3. [EC2 Fundamentals](#ec2)
