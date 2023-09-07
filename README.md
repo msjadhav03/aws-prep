@@ -4,8 +4,6 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png?20170912170050" alt="AWS Logo" height="260">
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SOTamWNgDKc?si=qBLVoZpmJfFoBqB4"></iframe>
-
 # Contents
 
 1. [Getting Started with AWS](#intro)
