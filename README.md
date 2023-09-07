@@ -4,48 +4,12 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png?20170912170050" alt="AWS Logo" height="260">
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SOTamWNgDKc?si=qBLVoZpmJfFoBqB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SOTamWNgDKc?si=qBLVoZpmJfFoBqB4"></iframe>
 
 # Contents
 
 1. [Getting Started with AWS](#intro)
-   - `What is AWS?`🤔️
-     1. Cloud Computing Platform.
-     2. Provides Cloud Service Like Computing, Storage 🗄️, Databases, Machine
-        Learning, Analytics, Content delievery, IoT, Security🔐️ and many more.
-     3. Access to utilize resources on a pay-as-you-go 💸️ basis.
-     4. It is Know for its reliability, scalibility, and flexibility.
-     5. It has global🌍️ network of data centers, allows to run their application
-        close to their customers for low latency and high availability.
-   - `Features` Scalability ⬆️, Reliability, Security💪️, Flexibility, Storage,
-     Databases, analytics, Networking🌐️, Machine Learning, Serverless, Global
-     Reach.
 2. [IAM and AWS CLI](#iam)
-   - `What is IAM?`🤔️
-     1. IAM 👨‍💻️ stands for Access and Identity Management Service.
-     2. Global Service.
-     3. Provides tools to manage users, groups, roles, policies and permission
-        for an AWS account.
-     4. Provides Control over accessing resources.
-     5. Implements best security💪️ measures.
-     6. Support features like Multifactor Authentication 🔐️, Identity
-        Federation, Security Token Access
-     7. `roles` set of permissions, defines what actions are alloweded or denied
-        on resources. Use Cases : Cross Account Access, Service to Service
-        Access, Temporary Permissions, Federation, Least Privilefe Principle,
-        Rotation of Credentials.
-   - `aws-cli`
-     1. Command Line Tool👨‍💻️ to interact and manage AWS services from local
-        terminal.
-     2. Performs tasks like creating, configuring, and managing AWS resources.
-     3. Cross Platform, Access AWS APIS, Support for MFA 🔐️, Scripting and
-        Automation, Customization.
-     4. Installing AWS CLI on ubuntu
-     ```js
-     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-     unzip awscliv2.zip
-     sudo ./aws/install
-     ```
 3. [EC2 Fundamentals](#ec2)
 4. [EC2 storage](#ec2storage)
 5. [AWS Fundamentals: ELB + ASG](#elb)
@@ -75,7 +39,45 @@
 
 # Getting Started With AWS
 
+- `What is AWS?`🤔️
+  1. Cloud Computing Platform.
+  2. Provides Cloud Service Like Computing, Storage 🗄️, Databases, Machine
+     Learning, Analytics, Content delievery, IoT, Security🔐️ and many more.
+  3. Access to utilize resources on a pay-as-you-go 💸️ basis.
+  4. It is Know for its reliability, scalibility, and flexibility.
+  5. It has global🌍️ network of data centers, allows to run their application
+     close to their customers for low latency and high availability.
+  - `Features` Scalability ⬆️, Reliability, Security💪️, Flexibility, Storage,
+    Databases, analytics, Networking🌐️, Machine Learning, Serverless, Global
+    Reach.
+
 # IAM and AWS CLI
+
+- `What is IAM?`🤔️
+  1. IAM 👨‍💻️ stands for Access and Identity Management Service.
+  2. Global Service.
+  3. Provides tools to manage users, groups, roles, policies and permission for
+     an AWS account.
+  4. Provides Control over accessing resources.
+  5. Implements best security💪️ measures.
+  6. Support features like Multifactor Authentication 🔐️, Identity Federation,
+     Security Token Access
+  7. `roles` set of permissions, defines what actions are alloweded or denied on
+     resources. Use Cases : Cross Account Access, Service to Service Access,
+     Temporary Permissions, Federation, Least Privilefe Principle, Rotation of
+     Credentials.
+- `aws-cli`
+  1. Command Line Tool👨‍💻️ to interact and manage AWS services from local
+     terminal.
+  2. Performs tasks like creating, configuring, and managing AWS resources.
+  3. Cross Platform, Access AWS APIS, Support for MFA 🔐️, Scripting and
+     Automation, Customization.
+  4. Installing AWS CLI on ubuntu
+  ```js
+  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  unzip awscliv2.zip
+  sudo ./aws/install
+  ```
 
 # EC2 Fundamentals
 
