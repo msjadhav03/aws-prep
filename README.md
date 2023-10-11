@@ -115,7 +115,7 @@
    1. REST API
    2. HTTP API : HTTP APIs enable you to create RESTful APIs with lower latency and lower cost than REST APIs.
    3. WebSocket API
-- `Who uses API Gateway🚪️?`
+- `Who uses API Gateway?`
 API developers and app developers.
 - REST APIs and HTTP APIs are both RESTful API products.
 - Architecture 🔩️
