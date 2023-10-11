@@ -105,9 +105,47 @@
 
 # AWS Serverless: Lambda
 
+- AWS Lambda is a compute service.
+- Runs code without provisioning or managing servers.
+- Runs your code on a high-availability compute infrastructure.
+- It operates and maintains all of the compute resources.
+- Maintains OS and Servers.
+- Manages Auto Scaling.
+- Manages Logging and Monitoring via CloudWatch.
+- This abstraction allows you to focus on the code for your applications. Most AWS services generate events and act as an event source for Lambda.
+
+- ## Feature 
+   1. High Availability
+   2. Pay for value.
+   3. Flexiable permission model.
+
+- ## Event Driven Architecture
+
+   - Events are the primary mechanism to share information across the services.
+   - Uses events to initiate actions and communication between decoupled services.
+   - Event can be change state, user request, or an update.
+   - AWS Lambda is an example of an event-driven architecture. 
+
+- `What is Lambda function?`
+
+   - The code you run on AWS Lambda is called a Lambda function. Think of a function as a small, self-contained application.
+   - Lambda can rapidly launch as many copies of the function as needed to scale to the rate of incoming events.
+   - After you upload your code to AWS Lambda, you can configure an event source, such as an Amazon Simple Storage Service (Amazon S3) event, Amazon DynamoDB stream, Amazon Kinesis stream, or Amazon Simple Notification Service (Amazon SNS) notification.
+
+- Actions you can take with AWS Lambda
+   1. Access Permission : Define what services Lambda is permitted to interact with
+   2. Trigger Action : Specify which event or event source can trigger Lambda Function
+   3. Code, Dependenices, Configuration : Provide code and Dependency, Define Execution Parameter.
+
+- You can write code in your preferred language.
+- You do configure the memory for your function, but not CPU. 
+
+- `With AWS Lambda, you can run code without provisioning or managing servers. Lambda initiates events on your behalf, scales automatically, and provides built-in monitoring and logging. You can write code in your preferred language. You do configure the memory for your function, but not CPU. You don't work with the OS. AWS provides the operating environment at runtime.`
+
 # AWS Serverless: DynamoDB
 
 # AWS Serverless: API Gateway🚪️
+
 - Amazon API Gateway🚪️ is an AWS service for creating, publishing, maintaining, monitoring, and securing 🛡️  REST, HTTP, and WebSocket APIs at any scale
 -  Can create APIs that access AWS or other web services,
 - client --> Method Request --> Lambda Proxy --> Lambda Function --> Integration Response --> Method Reponse --> Client
@@ -120,6 +158,7 @@
 - REST APIs and HTTP APIs are both RESTful API products.
 - Architecture 🔩️
 - `User ---> API Gateway🚪️ (API Gateway Cache and Cloudwatch ) ---> Database/Other AWS Services/Lambda `
+
 - ## Features
 1. Support stateful and stateless API i.e. websocket, REST API
 2. Flexiable authentication mechanism and IAM Policies , Amazon cognito pools.
@@ -129,7 +168,9 @@
 6. Support for custom domain names.
 7. AWS WAF is a web application firewall that helps protect web applications and APIs from attacks
 8. You can use AWS X-Ray to trace and analyze user requests as they travel through your Amazon API Gateway🚪️ REST APIs to the underlying services.
+
 - ## Getting Started With API Gateway🚪️
+
 1. Create lambda function.
 2. Now, create API Gateway🚪️, HTTP APIs.
 3. Create routes inside API Gateway🚪️ and integrate corresponding Lambda function to the route.
@@ -152,6 +193,42 @@
 # Advanced Identity
 
 # AWS Security and Encryption : KMS, Encryption SDK, SSM Parameter store, IAM and STS
+
+# Amazon EventBridge
+
+# Amazon Simple Notification Service
+
+# Amazon SQS : Simple Queue Service
+
+# Amazon Fargate
+
+# Amazon SAM : Serverless Application Model
+- Serverless provides speed and innovation in your business applications.
+- This abstraction allows you to focus on the code for your applications.
+- The AWS serverless platform includes a number of fully managed services.
+- Compute
+   1. AWS Lambda
+- Orchestration
+   1. AWS Step Functions
+- Storage
+   1. Amazon S3
+- Data Stores
+   1. Amazon DynamoDB
+- Event Bus
+   1. Amazon EventBridge
+- Interprocess Messaging
+   1. Amazon SNS
+   2. Amazon SQS
+- API Integration
+   1. Amazon API Gateway
+   2. AWS AppSync
+- Developer Tools
+   1. AWS Cloud Development Kit
+   2. AWS Serverless Application Model
+
+# Amazon SAR : Serverless Application Respository
+
+# Amazon Step Function
 
 # AWS Other Services
 
