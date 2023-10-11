@@ -116,10 +116,10 @@
    2. HTTP API : HTTP APIs enable you to create RESTful APIs with lower latency and lower cost than REST APIs.
    3. WebSocket API
 - `Who uses API Gateway?`
-API developers and app developers.
+- API developers and app developers.
 - REST APIs and HTTP APIs are both RESTful API products.
 - Architecture 🔩️
-`User ---> API Gateway🚪️ (API Gateway🚪️ Cache and API Gateway🚪️ Cloudwatch ) ---> Database/Other AWS Services/Lambda `
+- `User ---> API Gateway🚪️ (API Gateway Cache and Cloudwatch ) ---> Database/Other AWS Services/Lambda `
 - ## Features
 1. Support stateful and stateless API i.e. websocket, REST API
 2. Flexiable authentication mechanism and IAM Policies , Amazon cognito pools.
