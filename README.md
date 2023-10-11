@@ -23,7 +23,7 @@
 15. [AWS Monitoring and Audit: Cloud Watch, X-Ray and CloudTrail](#cloudWatch)
 16. [AWS Serverless: Lambda](#Lambda)
 17. [AWS Serverless: DynamoDB](#dynamoDB)
-18. [AWS Serverless: API Gateway](#apigateway)
+18. [AWS Serverless: API Gateway🚪️](#apiGateway🚪️)
 19. [AWS CICD: CodeCommit, CodePipeline, CodeBuild, CodeDeploy](#cicd)
 20. [AWS Serverless: SAM - Serverless Application Model](#serverless)
 21. [Cloud Development Kit](#cdk)
@@ -107,7 +107,37 @@
 
 # AWS Serverless: DynamoDB
 
-# AWS Serverless: API Gateway
+# AWS Serverless: API Gateway🚪️
+- Amazon API Gateway🚪️ is an AWS service for creating, publishing, maintaining, monitoring, and securing 🛡️  REST, HTTP, and WebSocket APIs at any scale
+-  Can create APIs that access AWS or other web services,
+- client --> Method Request --> Lambda Proxy --> Lambda Function --> Integration Response --> Method Reponse --> Client
+- API Type Supported
+   1. REST API
+   2. HTTP API : HTTP APIs enable you to create RESTful APIs with lower latency and lower cost than REST APIs.
+   3. WebSocket API
+- `Who uses API Gateway🚪️?`
+API developers and app developers.
+- REST APIs and HTTP APIs are both RESTful API products.
+- Architecture 🔩️
+`User ---> API Gateway🚪️ (API Gateway🚪️ Cache and API Gateway🚪️ Cloudwatch ) ---> Database/Other AWS Services/Lambda `
+- ## Features
+1. Support stateful and stateless API i.e. websocket, REST API
+2. Flexiable authentication mechanism and IAM Policies , Amazon cognito pools.
+3. CloudTrail logging and monitoring of API usage and API changes.
+4. CloudWatch access logging and execution logging, including the ability to set alarms. 
+5. Ability to use AWS CloudFormation templates to enable API creation.
+6. Support for custom domain names.
+7. AWS WAF is a web application firewall that helps protect web applications and APIs from attacks
+8. You can use AWS X-Ray to trace and analyze user requests as they travel through your Amazon API Gateway🚪️ REST APIs to the underlying services.
+- ## Getting Started With API Gateway🚪️
+1. Create lambda function.
+2. Now, create API Gateway🚪️, HTTP APIs.
+3. Create routes inside API Gateway🚪️ and integrate corresponding Lambda function to the route.
+4. To Delete All the Service 
+   1. Go to Lambda service and delete Lamda function
+   2. Go to Log Groups and delete log groups with delete options.
+   3. Go to API Gateway🚪️ service and delete all the unwanted API Gateway🚪️s
+   
 
 # AWS CICD: CodeCommit, CodePipeline, CodeBuild, CodeDeploy
 
