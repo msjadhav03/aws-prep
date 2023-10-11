@@ -105,26 +105,26 @@
 
 # AWS Serverless: Lambda
 
-- AWS Lambda is a compute service.
-- Runs code without provisioning or managing servers.
-- Runs your code on a high-availability compute infrastructure.
+- AWS Lambda is a compute service. 🗄️
+- Runs code without provisioning or managing servers. ⚙️
+- Runs your code on a high-availability compute infrastructure. 🌐️
 - It operates and maintains all of the compute resources.
-- Maintains OS and Servers.
-- Manages Auto Scaling.
-- Manages Logging and Monitoring via CloudWatch.
-- This abstraction allows you to focus on the code for your applications. Most AWS services generate events and act as an event source for Lambda.
+- Maintains OS and 🗄️ Servers.
+- Manages Auto Scaling. 📈️
+- Manages 🔍️ Logging and Monitoring via CloudWatch.
+- This abstraction allows you to focus on the code for your applications. 📱️ Most AWS services generate events and act as an event source for Lambda.
 
 - ## Feature 
-   1. High Availability
-   2. Pay for value.
-   3. Flexiable permission model.
+   1. High Availability 📈️
+   2. Pay for value. 💸️
+   3. Flexiable permission model.🚆️
 
 - ## Event Driven Architecture
 
-   - Events are the primary mechanism to share information across the services.
+   - Events are the 👉️ primary mechanism to share information across the services.
    - Uses events to initiate actions and communication between decoupled services.
    - Event can be change state, user request, or an update.
-   - AWS Lambda is an example of an event-driven architecture. 
+   - AWS Lambda is an example of an event-driven architecture. ⛓️
 
 - `What is Lambda function?`
 
@@ -140,7 +140,7 @@
 - You can write code in your preferred language.
 - You do configure the memory for your function, but not CPU. 
 
-- `With AWS Lambda, you can run code without provisioning or managing servers. Lambda initiates events on your behalf, scales automatically, and provides built-in monitoring and logging. You can write code in your preferred language. You do configure the memory for your function, but not CPU. You don't work with the OS. AWS provides the operating environment at runtime.`
+- `With AWS Lambda, you can run code without provisioning or managing servers 🗄️. Lambda initiates events on your behalf, scales automatically, 📈️ and provides built-in monitoring and logging. You can write code in your preferred language. You do configure the memory for your function,🔧️ but not CPU. You don't work with the OS. AWS provides the operating environment at runtime.`
 
 # AWS Serverless: DynamoDB
 
